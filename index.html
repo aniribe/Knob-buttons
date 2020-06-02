@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+    />
+    <title>Knob</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="bar right">
+        <div class="fill" id="rightFill"></div>
+      </div>
+
+      <div class="bar left">
+        <div class="fill" id="leftFill"></div>
+      </div>
+
+      <div class="bar-top"></div>
+
+      <div class="knob-base">
+        <span class="arrow minus" id="minus"
+          ><i class="fas fa-chevron-left"></i
+        ></span>
+        <span class="arrow plus" id="plus"
+          ><i class="fas fa-chevron-right"></i
+        ></span>
+        <div class="knob">
+          <span id="temp">1</span>
+          <span class="deg">&deg</span>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>

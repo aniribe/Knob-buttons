@@ -11,6 +11,7 @@
     <title>Knob</title>
   </head>
   <body>
+    <!-- Knob 1-->
     <div class="container">
       <div class="bar right">
         <div class="fill" id="rightFill"></div>
@@ -36,7 +37,27 @@
       </div>
     </div>
 
-    <div class="container2">
+    <!-- Knob 3-->
+    <div class="container3">
+      <div class="bar left">
+        <div class="fill" id="leftFill3"></div>
+      </div>
+
+      <div class="bar right">
+        <div class="fill" id="rightFill3"></div>
+      </div>
+
+      <div class="bar-top">
+        <span class="arrow minus" id="minus3"
+          ><i class="fas fa-minus"></i
+        ></span>
+        <div class="knob"></div>
+        <span class="arrow plus" id="plus3"><i class="fas fa-plus"></i></span>
+      </div>
+    </div>
+
+    <!-- Knob 2-->
+    <!-- <div class="container2">
       <div class="bar right">
         <div class="fill" id="rightFill2"></div>
       </div>
@@ -52,9 +73,57 @@
           </div>
         </div>
       </div>
+    </div> -->
+
+    <!-- Knob 4-->
+    <div class="container4">
+      <div class="base">
+        <div class="bar left">
+          <div class="fill" id="leftFill4"></div>
+        </div>
+
+        <div class="bar right">
+          <div class="fill" id="rightFill4"></div>
+        </div>
+
+        <div class="bar-top">
+          <div class="knob-base"></div>
+          <div class="knob">
+            <div class="handle-base" id="dial4">
+              <div class="handle" id="handle4" draggable="true"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <span class="sign min">MIN</span>
+      <span class="sign max">MAX</span>
+    </div>
+
+    <!-- Knob 5-->
+    <div class="container5">
+      <div class="bar left">
+        <div class="fill" id="leftFill5"></div>
+      </div>
+
+      <div class="bar right">
+        <div class="fill" id="rightFill5"></div>
+      </div>
+
+      <div class="shadow"></div>
+      <div class="hide"></div>
+
+      <div class="knob">
+        <div class="handle-base" id="dial5">
+          <div class="handle" id="handle5" draggable="true"></div>
+        </div>
+      </div>
     </div>
   </body>
 
   <script src="script.js"></script>
-  <script src="draggableBtn.js"></script>
+  <!-- <script src="draggableBtn.js"></script> -->
+  <script src="scriptBtn3.js"></script>
+  <script src="scriptBtn4.js"></script>
+  <script src="scriptBtn5.js"></script>
 </html>
